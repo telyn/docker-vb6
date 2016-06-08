@@ -1,4 +1,4 @@
-This repo provides the recipe for creating a docker image with VS6 installed under wine, so you can build vb6 projects in gitlab-ci or whatever. I don't know, whatever purpose you might have for it.
+This repo provides the recipe for creating a docker image with Visual Studio 6 installed under wine, so you can build vb6 projects in gitlab-ci or whatever. I don't know, whatever purpose you might have for it.
 
 To use:
 
