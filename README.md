@@ -13,3 +13,5 @@ Then run docker build as follows, replacing YOURKEY_HERE with the numbers of you
 Eg. for the key 123-7890123, run `docker build --build-arg KEY=1237890123 .`
 
 Cross your fingers. A test is run at the end to check that the VB98 folder exists. If it does, it might work?
+
+For obvious legal reasons, I'm not providing any prebuilt images of this on docker hub nor anywhere else.
