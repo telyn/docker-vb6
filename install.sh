@@ -1,5 +1,5 @@
 #!/bin/bash
-set -x 
+set -ex
 
 KEY=$1
 
@@ -19,4 +19,4 @@ DISPLAY=:0 wine "vs\\ACMSETUP.exe" /k $KEY /n Container /o None /qnt
 sleep 15;
 kill $XVFB_PID
 
-ls "/home/wine/.wine/drive_c/Program Files/Microsoft Visual Studio/" | grep VB98 || exit 1
+ls "/home/wine/.wine/drive_c/Program Files/Microsoft Visual Studio/" | grep VB98
